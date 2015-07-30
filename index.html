@@ -29,6 +29,7 @@
     <script src="app/products/productListCtrl.js"></script>
     <script src="app/products/productEditCtrl.js"></script>
     <script src="app/products/productDetailCtrl.js"></script>
+    <script src="app/products/testCtrl.js"></script>
 
     <!-- Price Controller -->
     <script src="app/prices/PriceAnalyticsCtrl.js"></script>
@@ -63,6 +64,28 @@
             </div>
         </div>
     </nav>
+    <div ng-controller="testCtrl">
+        <form name="userFormTwo" novalidate>
+
+            <div class="form-group" ng-repeat="user in formDataTwo.users" ng-class="{ 'has-error' : userFieldForm.email.$invalid }">
+
+                <ng-form name="userFieldForm">
+                    <label>{{ user.name }}'s Email</label>
+                    <input type="email" class="form-control" name="email" ng-model="user.email" required>
+                    <p class="help-block" ng-show="userFieldForm.email.$invalid">Valid Email Required</p>
+                </ng-form>
+
+            </div>
+
+            <button ng-disabled="userFormTwo.$invalid">Save</button>
+
+        </form>
+
+    <pre><code>
+        {{ formDataTwo }}
+    </code></pre>
+</div>
+
     <div ui-view></div>
 </div>
 
