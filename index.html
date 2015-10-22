@@ -7,7 +7,7 @@
     <!-- Style sheets -->
     <link href="css/bootstrap.css" rel="stylesheet"/>
     <link href="css/toastr.css" rel="stylesheet"/>
-    <link href="css/app.css" rel="stylesheet"/>
+    <!--<link href="css/app.css" rel="stylesheet"/>-->
 
     <!-- Library Scripts -->
     <script src="js/jquery.js"></script>
@@ -65,6 +65,13 @@
         </div>
     </nav>
     <div ng-controller="testCtrl">
+        <p> This is my JobService variable : {{job}}</p>
+
+        <input type="text" ng-model="newjob"/>
+
+        <button ng-click="setJob(newjob)" >Set Job</button>
+
+
         <form name="userFormTwo" novalidate>
 
             <div class="form-group" ng-repeat="user in formDataTwo.users" ng-class="{ 'has-error' : userFieldForm.email.$invalid }">

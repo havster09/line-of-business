@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="productResource.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
+      <file leaf-file-name="productService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/services/productService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="5" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productResourceMock.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/services/productResourceMock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="48" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="1261" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -44,7 +53,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="47" selection-start="63" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+            <state line="12" column="37" selection-start="305" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
               <folding />
             </state>
           </provider>
@@ -59,10 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="productDetailCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/products/productDetailCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetailView.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/products/productDetailView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="15" selection-start="137" selection-end="137" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="59" selection-start="3255" selection-end="3255" vertical-scroll-proportion="0.84095633" vertical-offset="534" max-vertical-offset="1683">
+            <state line="92" column="17" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-48.384617" vertical-offset="306" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
@@ -71,7 +98,7 @@
       <file leaf-file-name="testCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/products/testCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="60" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="7" column="25" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -91,31 +118,31 @@
         <option value="$PROJECT_DIR$/common/services/productResource.js" />
         <option value="$PROJECT_DIR$/app/products/productListCtrl.js" />
         <option value="$PROJECT_DIR$/common/services/productResourceMock.js" />
-        <option value="$PROJECT_DIR$/app/products/productDetailView.html" />
         <option value="$PROJECT_DIR$/app/products/productListView.html" />
         <option value="$PROJECT_DIR$/app/products/productEditView.html" />
         <option value="$PROJECT_DIR$/app/welcomeView.html" />
         <option value="$PROJECT_DIR$/app/products/productEditTagsView.html" />
         <option value="$PROJECT_DIR$/common/services/productService.js" />
-        <option value="$PROJECT_DIR$/app/products/productDetailCtrl.js" />
         <option value="$PROJECT_DIR$/app/products/productEditPriceView.html" />
         <option value="$PROJECT_DIR$/app/prices/priceAnalyticsView.html" />
         <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/app/prices/PriceAnalyticsCtrl.js" />
         <option value="$PROJECT_DIR$/app/products/productEditCtrl.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/products/productEditInfoView.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/products/testCtrl.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/products/productDetailView.html" />
+        <option value="$PROJECT_DIR$/app/products/productDetailCtrl.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1168" />
+    <option name="width" value="1552" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -200,6 +227,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="line-of-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -222,6 +267,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="productManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="line-of-business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -230,12 +293,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../command-and-conquer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../grunt-test" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -278,15 +342,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1168" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1552" height="840" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="21" y="300" width="1494" height="226" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17001338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -294,11 +358,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -318,11 +382,107 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/prices/PriceAnalyticsCtrl.js">
+    <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1462">
+        <state line="8" column="5" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productEditInfoView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="63" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productListCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="51" selection-start="246" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productDetailCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productEditCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="224" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/testCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productEditInfoView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="33" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="1146" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="63" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productListCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="50" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/testCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/prices/PriceAnalyticsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
@@ -355,16 +515,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/prices/priceAnalyticsView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/prices/PriceAnalyticsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
@@ -383,9 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/prices/priceAnalyticsView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular-ui-router.js">
@@ -418,19 +572,9 @@
         <state line="35" column="70" selection-start="1597" selection-end="1597" vertical-scroll-proportion="-13.076923" vertical-offset="255" max-vertical-offset="952" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/productDetailView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="58" selection-start="1499" selection-end="1512" vertical-scroll-proportion="-8.692307" vertical-offset="352" max-vertical-offset="1190" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/products/productEditPriceView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="49" selection-start="680" selection-end="680" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="2754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/services/productResourceMock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
@@ -438,50 +582,19 @@
         <state line="37" column="17" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/services/common.services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/productDetailCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/productEditCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="224" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1802" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/services/productService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="382" selection-end="382" vertical-scroll-proportion="-0.08181818" vertical-offset="241" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/prices/PriceAnalyticsCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.31384614" vertical-offset="0" max-vertical-offset="1462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="63" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <folding />
-        </state>
+        <state line="18" column="81" selection-start="930" selection-end="930" vertical-scroll-proportion="0.31384614" vertical-offset="0" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/prices/priceAnalyticsView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.17671518" vertical-offset="0" max-vertical-offset="962">
+        <state line="10" column="41" selection-start="373" selection-end="373" vertical-scroll-proportion="0.17671518" vertical-offset="0" max-vertical-offset="962" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productEditCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="43" selection-start="224" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1802">
           <folding />
         </state>
       </provider>
@@ -493,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/products/testCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="60" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/products/productEditInfoView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="33" selection-start="849" selection-end="849" vertical-scroll-proportion="32.96154" vertical-offset="1146" max-vertical-offset="2108">
@@ -507,9 +613,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/common.services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/productResource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="5" selection-start="235" selection-end="235" vertical-scroll-proportion="0.2060606" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/productService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/services/productResourceMock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="1261" max-vertical-offset="2125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="305" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productDetailView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="137" selection-end="137" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="59" selection-start="3255" selection-end="3255" vertical-scroll-proportion="0.84095633" vertical-offset="534" max-vertical-offset="1683">
+        <state line="92" column="17" selection-start="3517" selection-end="3517" vertical-scroll-proportion="-48.384617" vertical-offset="306" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/testCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/products/productDetailCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="685" selection-end="685" vertical-scroll-proportion="0.56666666" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>

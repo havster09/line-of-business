@@ -10,6 +10,24 @@
             "angularCharts"
         ]);
 
+    app.factory('JobService',JobService);
+
+    function JobService(){
+        var job = null;
+        function setJob(newJob){
+            job = newJob;
+            return job;
+        }
+        function getJob(){
+            return job;
+        }
+
+        return{
+             setJob:setJob,
+             getJob:getJob
+        }
+    }
+
     //decorate $exceptionHandler
     app.config(function ($provide) {
         $provide.decorator("$exceptionHandler",
